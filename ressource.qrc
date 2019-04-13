@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>image/256-256-e18cce6d647053b9619aaf1f142611eb.png</file>
+        <file>image/600px-Cornflower_blue_check.svg.png</file>
+        <file>image/23914.png</file>
+        <file>image/ajouter.png</file>
+        <file>image/ajouter-au-panier-bouton-e-commerce_318-73643.jpg</file>
+        <file>image/annuler.png</file>
+        <file>image/b-03-512.png</file>
+        <file>image/b2148ca8359d.png</file>
+        <file>image/Background4.png</file>
+        <file>image/Business_Plan-512.png</file>
+        <file>image/cancel.png</file>
+        <file>image/controlpanel_task_10822.png</file>
+        <file>image/Delete_Icon.png</file>
+        <file>image/filtrer-et-trier-les-fleches_318-47303.jpg</file>
+        <file>image/gradient-white-linear-grey-1824x2736-c2-778899-ffffff-a-270-f-14.svg</file>
+        <file>image/iCal.png</file>
+        <file>image/images.jpg</file>
+        <file>image/images.png</file>
+        <file>image/j5sd-vqk1dygiq6y-ve9p6 (1).jpg</file>
+        <file>image/j5sd-vqk1dygiq6y-ve9p6.jpg</file>
+        <file>image/magnifying-glass-189254_960_720.png</file>
+        <file>image/padlock-1294295_960_720.png</file>
+        <file>image/Photo-Background-Application.jpg</file>
+        <file>image/Product_Icon.png</file>
+        <file>image/téléchargement.png</file>
+        <file>image/Web-Development-Icon-512px-300x246.png</file>
+        <file>image/heartbeat-png-hd-powerlevel-anime-simple-background-white-background-minimalism-abstract-heartbeat-1920.png</file>
+        <file>image/lamp-light-bulb-outline_318-56628.jpg</file>
+        <file>image/simple-heart-beat-wave-vector-18838935.jpg</file>
+        <file>image/download.jpg</file>
+        <file>image/lamppng.png</file>
+        <file>image/sensorpng.png</file>
+        <file>image/Refresh.png</file>
+        <file>image/clipart159062.png</file>
+        <file>image/eye (1).png</file>
+        <file>image/free-garden-vector.png</file>
+        <file>image/it-s-time-for-gardening_23-2147511212.jpg</file>
+        <file>image/vector-free-mariposa-with-sunflower-garden-illustration.jpg</file>
+    </qresource>
+</RCC>

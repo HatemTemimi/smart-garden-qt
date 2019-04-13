@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gestion2</class>
+ <widget class="QWidget" name="Gestion2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion Jardin</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/res/image/free-garden-vector.png);
+</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>561</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="Capteurs_3">
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <attribute name="icon">
+     <iconset resource="ressource.qrc">
+      <normaloff>:/res/image/sensorpng.png</normaloff>:/res/image/sensorpng.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Capteurs</string>
+    </attribute>
+    <widget class="QLineEdit" name="Code_C_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>40</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Type_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Emplacement_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Code</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Bouton_Ajouter_3">
+     <property name="geometry">
+      <rect>
+       <x>119</x>
+       <y>170</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/ajouter.png</normaloff>:/res/image/ajouter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>11</width>
+       <height>16</height>
+      </size>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/Delete_Icon.png</normaloff>:/res/image/Delete_Icon.png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>100</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Afficher</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/eye (1).png</normaloff>:/res/image/eye (1).png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonRecherche_3">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>220</y>
+       <width>80</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Rechercher</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/b2148ca8359d.png</normaloff>:/res/image/b2148ca8359d.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>14</width>
+       <height>15</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="rechercherligne_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Refresh_3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>140</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/clipart159062.png</normaloff>:/res/image/clipart159062.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>16</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdNumber_5">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>40</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="digitCount">
+      <number>3</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Emplacement</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Taux</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="taux">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>Saisir</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>10</y>
+       <width>131</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="title">
+      <string>Affichage</string>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="Readhumidite">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>70</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <property name="smallDecimalPoint">
+      <bool>false</bool>
+     </property>
+     <property name="digitCount">
+      <number>5</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>30</y>
+       <width>141</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Humidité</string>
+     </property>
+    </widget>
+    <zorder>groupBox_5</zorder>
+    <zorder>groupBox_2</zorder>
+    <zorder>groupBox</zorder>
+    <zorder>pushButton_8</zorder>
+    <zorder>Code_C_3</zorder>
+    <zorder>Type_3</zorder>
+    <zorder>Emplacement_3</zorder>
+    <zorder>label_11</zorder>
+    <zorder>label_12</zorder>
+    <zorder>Bouton_Ajouter_3</zorder>
+    <zorder>pushButton_7</zorder>
+    <zorder>BoutonRecherche_3</zorder>
+    <zorder>rechercherligne_3</zorder>
+    <zorder>Refresh_3</zorder>
+    <zorder>lcdNumber_5</zorder>
+    <zorder>label_13</zorder>
+    <zorder>label_16</zorder>
+    <zorder>taux</zorder>
+    <zorder>Readhumidite</zorder>
+   </widget>
+   <widget class="QWidget" name="Lampes_3">
+    <attribute name="icon">
+     <iconset resource="ressource.qrc">
+      <normaloff>:/res/image/lamppng.png</normaloff>:/res/image/lamppng.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Lampes</string>
+    </attribute>
+    <widget class="QLabel" name="labelcode_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Code</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Couleur</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Emplacement</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Code_L_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>60</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Couleur_L_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Emplacement_L_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonAjouter_L_3">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>170</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/ajouter.png</normaloff>:/res/image/ajouter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>12</width>
+       <height>14</height>
+      </size>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonSupprimerLMP_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>80</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/Delete_Icon.png</normaloff>:/res/image/Delete_Icon.png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonAfficherLMP_3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>110</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Afficher</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/eye (1).png</normaloff>:/res/image/eye (1).png</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="RechercheLMP_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonRechercheL_3">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>220</y>
+       <width>80</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>Rechercher</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>image/b2148ca8359d.png</normaloff>image/b2148ca8359d.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>14</width>
+       <height>16</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>150</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressource.qrc">
+       <normaloff>:/res/image/clipart159062.png</normaloff>:/res/image/clipart159062.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>14</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="lcdNumber_6">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>40</y>
+       <width>81</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="digitCount">
+      <number>3</number>
+     </property>
+     <property name="segmentStyle">
+      <enum>QLCDNumber::Flat</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>221</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="title">
+      <string>Saisir</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>10</y>
+       <width>121</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI Black</family>
+      </font>
+     </property>
+     <property name="title">
+      <string>Affichage</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonPlus">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>140</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonMoin">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>190</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonOn">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>40</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>On</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BoutonOFF">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>90</y>
+       <width>80</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Off</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_6">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>10</y>
+       <width>120</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Controle Lampes</string>
+     </property>
+    </widget>
+    <zorder>groupBox_6</zorder>
+    <zorder>groupBox_3</zorder>
+    <zorder>groupBox_4</zorder>
+    <zorder>labelcode_3</zorder>
+    <zorder>label_14</zorder>
+    <zorder>label_15</zorder>
+    <zorder>Code_L_3</zorder>
+    <zorder>Couleur_L_3</zorder>
+    <zorder>Emplacement_L_3</zorder>
+    <zorder>BoutonAjouter_L_3</zorder>
+    <zorder>BoutonSupprimerLMP_3</zorder>
+    <zorder>BoutonAfficherLMP_3</zorder>
+    <zorder>RechercheLMP_3</zorder>
+    <zorder>BoutonRechercheL_3</zorder>
+    <zorder>pushButton_9</zorder>
+    <zorder>lcdNumber_6</zorder>
+    <zorder>BoutonPlus</zorder>
+    <zorder>BoutonMoin</zorder>
+    <zorder>BoutonOn</zorder>
+    <zorder>BoutonOFF</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
